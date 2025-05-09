@@ -102,7 +102,7 @@ function scrapeProductDetails($productUrl) {
 }
 
 // Main script
-$sitemapUrl = 'https://shroomland.ca/product-sitemap.xml';
+$sitemapUrl = $_REQUEST['xmlpath'];
 $productUrls = extractUrlsFromSitemap($sitemapUrl);
 
 // Define batch size and range
