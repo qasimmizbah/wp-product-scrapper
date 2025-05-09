@@ -12,4 +12,4 @@ This allows you to fetch product data in manageable chunks for processing or exp
 
 
 
-https://example.com/scrapwithcsv.php?batchSize=99&startIndex=1&xmlpath=https://shroomland.ca/product-sitemap.xml
+https://example.com/scrapwithcsv.php?batchSize=99&startIndex=1&xmlpath=https://example.com/product-sitemap.xml
